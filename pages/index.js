@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Banner from "../components/banner/Banner";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -12,7 +13,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Netflix clone with Youtube API</h1>
+        {/* <Navbar /> */}
+        <Banner
+          title="Clifford the Red Dog"
+          subTitle="A Cute Dog"
+          imgUrl="/static/clifford.webp"
+        />
+        {/* <Card /> */}
       </main>
     </div>
   );
