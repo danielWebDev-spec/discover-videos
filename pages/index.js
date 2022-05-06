@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
 import Banner from "../components/banner/Banner";
+import Navbar from "../components/nav/Navbar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -13,11 +13,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        {/* <Navbar /> */}
+        <Navbar username="daniel@gmail.com" />
         <Banner
-          title="Clifford the Red Dog"
-          subTitle="A Cute Dog"
-          imgUrl="/static/clifford.webp"
+          title="Bleach"
+          subTitle="Fade to Black"
+          imgUrl="/static/Bleach.jpg"
         />
         {/* <Card /> */}
       </main>

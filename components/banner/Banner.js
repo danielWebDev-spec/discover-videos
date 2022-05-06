@@ -17,7 +17,9 @@ const Banner = (props) => {
             <p className={styles.series}>S E R I E S</p>
           </div>
           <div className={styles.title}>{title}</div>
-          <div className={styles.subTitle}>{subTitle}</div>
+          <div style={{ maxWidth: "500px" }} className={styles.subTitle}>
+            {subTitle}
+          </div>
           <div className={styles.playBtnWrapper}>
             <button className={styles.btnWithIcon} onClick={handleOnPlay}>
               <Image
