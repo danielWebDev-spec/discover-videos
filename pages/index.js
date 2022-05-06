@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Banner from "../components/banner/Banner";
+import Card from "../components/card/Card";
 import Navbar from "../components/nav/Navbar";
 import styles from "../styles/Home.module.css";
 
@@ -19,7 +20,7 @@ export default function Home() {
           subTitle="Fade to Black"
           imgUrl="/static/Bleach.jpg"
         />
-        {/* <Card /> */}
+        <Card imgUrl="/static/clifford.webp" size="large" />
       </main>
     </div>
   );
