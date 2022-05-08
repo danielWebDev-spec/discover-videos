@@ -1,10 +1,15 @@
 import Head from "next/head";
 import Banner from "../components/banner/Banner";
-import Card from "../components/card/Card";
+import SectionCards from "../components/card/SectionCards";
 import Navbar from "../components/nav/Navbar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+  const disneyVideos = [
+    { imgUrl: "/static/clifford.webp" },
+    { imgUrl: "/static/clifford.webp" },
+    { imgUrl: "/static/clifford.webp" },
+  ];
   return (
     <div className={styles.container}>
       <Head>
@@ -20,7 +25,9 @@ export default function Home() {
           subTitle="Fade to Black"
           imgUrl="/static/Bleach.jpg"
         />
-        <Card imgUrl="/static/clifford.webp" size="large" />
+        <div className={styles.sectionWrapper}>
+          <SectionCards title="Disney" videos={disneyVideos} size="large" />
+        </div>
       </main>
     </div>
   );
