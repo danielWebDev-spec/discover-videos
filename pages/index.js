@@ -3,13 +3,10 @@ import Banner from "../components/banner/Banner";
 import SectionCards from "../components/card/SectionCards";
 import Navbar from "../components/nav/Navbar";
 import styles from "../styles/Home.module.css";
+import { getVideos } from "../lib/videos";
 
 export default function Home() {
-  const disneyVideos = [
-    { imgUrl: "/static/clifford.webp" },
-    { imgUrl: "/static/clifford.webp" },
-    { imgUrl: "/static/clifford.webp" },
-  ];
+  const animeVideos = getVideos();
   return (
     <div className={styles.container}>
       <Head>
@@ -26,7 +23,11 @@ export default function Home() {
           imgUrl="/static/Bleach.jpg"
         />
         <div className={styles.sectionWrapper}>
-          <SectionCards title="Disney" videos={disneyVideos} size="large" />
+          <SectionCards
+            title="Anime Trailers"
+            videos={animeVideos}
+            size="large"
+          />
         </div>
       </main>
     </div>

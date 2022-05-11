@@ -6,7 +6,7 @@ const SectionCards = (props) => {
 
   return (
     <section className={styles.container}>
-      <h2>{title}</h2>
+      <h2 className={styles.title}>{title}</h2>
       <div className={styles.cardWrapper}>
         {videos.map((video, idx) => {
           return (
