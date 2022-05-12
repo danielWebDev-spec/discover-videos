@@ -3,18 +3,20 @@ import Banner from "../components/banner/Banner";
 import SectionCards from "../components/card/SectionCards";
 import Navbar from "../components/nav/Navbar";
 import styles from "../styles/Home.module.css";
-import { getVideos } from "../lib/videos";
+import { getPopularVideos, getVideos } from "../lib/videos";
 
 export async function getServerSideProps() {
   const animeVideos = await getVideos("anime trailers");
   const travelVideos = await getVideos("travel");
   const productivityVideos = await getVideos("productivity");
+  const popularVideos = await getPopularVideos();
 
   return {
     props: {
       animeVideos,
       travelVideos,
       productivityVideos,
+      popularVideos,
     },
   };
 }
@@ -23,6 +25,7 @@ export default function Home({
   animeVideos,
   travelVideos,
   productivityVideos,
+  popularVideos,
 }) {
   return (
     <div className={styles.container}>
@@ -51,7 +54,7 @@ export default function Home({
             videos={productivityVideos}
             size="medium"
           />
-          <SectionCards title="Popular" videos={animeVideos} size="small" />
+          <SectionCards title="Popular" videos={popularVideos} size="small" />
         </div>
       </div>
     </div>
