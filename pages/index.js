@@ -5,8 +5,17 @@ import Navbar from "../components/nav/Navbar";
 import styles from "../styles/Home.module.css";
 import { getVideos } from "../lib/videos";
 
-export default function Home() {
-  const animeVideos = getVideos();
+export async function getServerSideProps() {
+  const animeVideos = await getVideos();
+
+  return {
+    props: {
+      animeVideos,
+    },
+  };
+}
+
+export default function Home({ animeVideos }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -15,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <div className={styles.main}>
         <Navbar username="daniel@gmail.com" />
         <Banner
           title="Bleach"
@@ -29,7 +38,7 @@ export default function Home() {
             size="large"
           />
         </div>
-      </main>
+      </div>
     </div>
   );
 }

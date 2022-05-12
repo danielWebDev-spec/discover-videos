@@ -2,6 +2,74 @@
   "items": [
     {
       "kind": "youtube#searchResult",
+      "etag": "JYI5c09hOQgEAeW202s4NjsMHzY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "w7M0-AEjnQE"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-12T09:02:21Z",
+        "channelId": "UCChjE9CYTSJUECtLkA3SnTw",
+        "title": "Mob Psycho 100 Season 3 - Official Trailer | AniTV",
+        "description": "Mob Psycho 100, Mob Psycho 100 anime, Mob Psycho 100 trailer, Mob Psycho 100 anime trailer, Mob Psycho 100 release date, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/w7M0-AEjnQE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/w7M0-AEjnQE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/w7M0-AEjnQE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AniTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-12T09:02:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KAHabL6ELJsCwOWZsdjgxct4MNg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "t5CIs0jDqC8"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-10T15:00:29Z",
+        "channelId": "UC6pGDc4bFGD1_36IKv3FnYg",
+        "title": "Dragon Ball Super: SUPER HERO | OFFICIAL TRAILER",
+        "description": "Dragon Ball Super: SUPER HERO is coming to theaters Summer 2022! More info here! https://got.cr/cc-dbsshpv Crunchyroll ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t5CIs0jDqC8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t5CIs0jDqC8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t5CIs0jDqC8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Crunchyroll Collection",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-10T15:00:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
       "etag": "MDtEkRXsGhp6GIEjLpAD8kmTDxY",
       "id": {
         "kind": "youtube#video",
@@ -32,40 +100,6 @@
         "channelTitle": "AnimeHypeアニメ日本",
         "liveBroadcastContent": "none",
         "publishTime": "2022-04-18T16:03:20Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "iFe1AQCJi69IiDKoKfrCt5OqJO8",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "47gbgcYyxdg"
-      },
-      "snippet": {
-        "publishedAt": "2022-05-11T13:04:25Z",
-        "channelId": "UCChjE9CYTSJUECtLkA3SnTw",
-        "title": "Ao Ashi - Official Trailer 3 | AniTV",
-        "description": "Ao ashi, Ao ashi anime, Ao ashi trailer, Ao ashi anime trailer, Ao ashi trailer eng sub, Ao ashi anime trailer eng sub, Ao ashi ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/47gbgcYyxdg/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/47gbgcYyxdg/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/47gbgcYyxdg/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "AniTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-05-11T13:04:25Z"
       }
     },
     {
@@ -172,7 +206,75 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "0WxVkRXrTEk9SGTmdFb1Uzb2-OY",
+      "etag": "-gbyvIZMUEsmdHbE7v3T_oUdZFI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "b1miJsAVYJA"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-12T09:00:24Z",
+        "channelId": "UCcjqSFXBg2cGQg5r0YooMiA",
+        "title": "【ENG sub】アニメ「モブサイコ100 Ⅲ」ティザーPV / MOB PSYCHO 100 III Teaser Trailer",
+        "description": "2022年10月 放送開始予定！！！ Streaming begins in October 2022!!! ▽アニメ「モブサイコ100 Ⅲ」あらすじ 何かが「100」に ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b1miJsAVYJA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b1miJsAVYJA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b1miJsAVYJA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Warner Bros. Japan Anime",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-12T09:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iFe1AQCJi69IiDKoKfrCt5OqJO8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "47gbgcYyxdg"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-11T13:04:25Z",
+        "channelId": "UCChjE9CYTSJUECtLkA3SnTw",
+        "title": "Ao Ashi - Official Trailer 3 | AniTV",
+        "description": "Ao ashi, Ao ashi anime, Ao ashi trailer, Ao ashi anime trailer, Ao ashi trailer eng sub, Ao ashi anime trailer eng sub, Ao ashi ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/47gbgcYyxdg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/47gbgcYyxdg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/47gbgcYyxdg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AniTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-11T13:04:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mKCpTnAG8FXGtug2Vy6LA-qsWTA",
       "id": {
         "kind": "youtube#video",
         "videoId": "eyonP1AgC0k"
@@ -240,308 +342,36 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "Gl1QZvb3Pg5akqHHVthHhF9cbLo",
+      "etag": "kE3iYsprSdDC7glOwvmPnoKyif0",
       "id": {
         "kind": "youtube#video",
-        "videoId": "qHAGFlSPxW8"
+        "videoId": "gaQCFemx5cQ"
       },
       "snippet": {
-        "publishedAt": "2022-05-05T09:02:38Z",
-        "channelId": "UCChjE9CYTSJUECtLkA3SnTw",
-        "title": "MF Ghost - Official Trailer 2 | AniTV",
-        "description": "MF Ghost, MF Ghost anime, MF Ghost trailer, MF Ghost pv, MF Ghost teaser, MF Ghost anime trailer, MF Ghost release date, MF ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/qHAGFlSPxW8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/qHAGFlSPxW8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/qHAGFlSPxW8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "AniTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-05-05T09:02:38Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "hbeMnagOKf-HgwCxLN0sEaDNj4w",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "y-hPQ0-orMM"
-      },
-      "snippet": {
-        "publishedAt": "2022-03-22T16:00:22Z",
-        "channelId": "UC6pGDc4bFGD1_36IKv3FnYg",
-        "title": "Tomodachi Game | OFFICIAL TRAILER",
-        "description": "Watch Tomodachi Game on Crunchyroll! https://got.cr/cc-tgpv Crunchyroll Collection brings you the latest clips, OPs, and more ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/y-hPQ0-orMM/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/y-hPQ0-orMM/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/y-hPQ0-orMM/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Crunchyroll Collection",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-03-22T16:00:22Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "smImKT7sv324cQoCv8hUCtUMCAM",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "sh-TMLKMf8M"
-      },
-      "snippet": {
-        "publishedAt": "2022-04-16T18:00:14Z",
-        "channelId": "UC6pGDc4bFGD1_36IKv3FnYg",
-        "title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc | OFFICIAL TRAILER",
-        "description": "Watch Demon Slayer: Kimetsu no Yaiba Entertainment District Arc on Crunchyroll! https://got.cr/cc-dspv Crunchyroll Collection ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/sh-TMLKMf8M/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/sh-TMLKMf8M/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/sh-TMLKMf8M/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Crunchyroll Collection",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-04-16T18:00:14Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "pikk1_TNJ4EFXS1jrTU4nMObV4k",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "2PAOSbOW2Gg"
-      },
-      "snippet": {
-        "publishedAt": "2021-08-12T09:13:33Z",
-        "channelId": "UCJWDdJyZROXdKY22BkwYNUQ",
-        "title": "Blue Lock - Official Trailer (HD)",
-        "description": "Blue Lock - Official Trailer (HD) TV ANIME \"BLUE LOCK\" is slated for a 2022 release! Synopsis After reflecting on the current state ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/2PAOSbOW2Gg/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/2PAOSbOW2Gg/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/2PAOSbOW2Gg/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "AnimeHypeアニメ日本",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-08-12T09:13:33Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "J0717yuILqsoY2fGfCvskrZ_NzQ",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "6f7BZjnjSM4"
-      },
-      "snippet": {
-        "publishedAt": "2021-12-18T10:41:35Z",
-        "channelId": "UCJWDdJyZROXdKY22BkwYNUQ",
-        "title": "Chainsaw Man Part 2 - Official Trailer",
-        "description": "Chainsaw Man Part 2 - Official Trailer Chainsaw Man is a Japanese manga series written and illustrated by Tatsuki Fujimoto.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/6f7BZjnjSM4/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/6f7BZjnjSM4/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/6f7BZjnjSM4/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "AnimeHypeアニメ日本",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-12-18T10:41:35Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "s8GBSPfkhy6ig0lRwao1Hgy4ni0",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "UyDlSmU7uuE"
-      },
-      "snippet": {
-        "publishedAt": "2021-12-19T02:24:13Z",
-        "channelId": "UCGPJ-ypIEy4Q9VygoNLl7HQ",
-        "title": "Hell&#39;s Paradise: Jigokuraku | Official Trailer",
-        "description": "\"Hell's Paradise: Jigokuraku\" TV anime STAFF: Original Story: Yuji Kaku \"Hell's Paradise\" Kusu) Director: Kaori Makita Series ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/UyDlSmU7uuE/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/UyDlSmU7uuE/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/UyDlSmU7uuE/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "AnimeTV チェーン",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-12-19T02:24:13Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "w_TSJeWL8DmhW1qxXyy0SBbat6w",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "ofXigq9aIpo"
-      },
-      "snippet": {
-        "publishedAt": "2022-03-18T03:00:17Z",
-        "channelId": "UC6pGDc4bFGD1_36IKv3FnYg",
-        "title": "SPY x FAMILY | MAIN TRAILER",
-        "description": "Watch SPY x FAMILY on Crunchyroll! https://got.cr/cc-sxfpv Crunchyroll Collection brings you the latest clips, OPs, and more from ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/ofXigq9aIpo/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/ofXigq9aIpo/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/ofXigq9aIpo/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Crunchyroll Collection",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-03-18T03:00:17Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "s6TfVM-oKNOolgz5yDlDcnrWZrg",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "iutQJzAXiWo"
-      },
-      "snippet": {
-        "publishedAt": "2021-12-18T10:20:45Z",
+        "publishedAt": "2021-10-11T12:30:19Z",
         "channelId": "UCDYDdPJKBUfKXcZBw9qwMdw",
-        "title": "BLEACH: Thousand Year Blood War – Official Trailer",
-        "description": "\"Bleach: Thousand Year Blood War Arc\" / \"Bleach: Sennen Kessen-hen\" is the continuation of the anime \"Bleach (2004)\", follows ...",
+        "title": "Alice and Therese&#39;s Illusion Factory - Official Trailer | English Sub",
+        "description": "\"Alice to Therese no Maboroshi Koujou\" is MAPPA's first original anime film. Without any dialogue, the trailer with stunning visuals ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/iutQJzAXiWo/default.jpg",
+            "url": "https://i.ytimg.com/vi/gaQCFemx5cQ/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/iutQJzAXiWo/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/gaQCFemx5cQ/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/iutQJzAXiWo/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/gaQCFemx5cQ/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "JP Anime",
         "liveBroadcastContent": "none",
-        "publishTime": "2021-12-18T10:20:45Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "qRWLjVQrZixjSKKSH9PRXp84Q1U",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "rORG4gUVOY8"
-      },
-      "snippet": {
-        "publishedAt": "2022-03-28T09:03:10Z",
-        "channelId": "UCChjE9CYTSJUECtLkA3SnTw",
-        "title": "Summer Time Render - Official Trailer 2 | AniTV",
-        "description": "Summer Time Render, Summer Time Render Anime, Summer Time Anime, Summer Time Render Trailer, Summer Time Render ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/rORG4gUVOY8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/rORG4gUVOY8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/rORG4gUVOY8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "AniTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-03-28T09:03:10Z"
+        "publishTime": "2021-10-11T12:30:19Z"
       }
     },
     {
@@ -580,6 +410,176 @@
     },
     {
       "kind": "youtube#searchResult",
+      "etag": "w_TSJeWL8DmhW1qxXyy0SBbat6w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ofXigq9aIpo"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-18T03:00:17Z",
+        "channelId": "UC6pGDc4bFGD1_36IKv3FnYg",
+        "title": "SPY x FAMILY | MAIN TRAILER",
+        "description": "Watch SPY x FAMILY on Crunchyroll! https://got.cr/cc-sxfpv Crunchyroll Collection brings you the latest clips, OPs, and more from ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ofXigq9aIpo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ofXigq9aIpo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ofXigq9aIpo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Crunchyroll Collection",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-18T03:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pikk1_TNJ4EFXS1jrTU4nMObV4k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2PAOSbOW2Gg"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-12T09:13:33Z",
+        "channelId": "UCJWDdJyZROXdKY22BkwYNUQ",
+        "title": "Blue Lock - Official Trailer (HD)",
+        "description": "Blue Lock - Official Trailer (HD) TV ANIME \"BLUE LOCK\" is slated for a 2022 release! Synopsis After reflecting on the current state ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2PAOSbOW2Gg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2PAOSbOW2Gg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2PAOSbOW2Gg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AnimeHypeアニメ日本",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-12T09:13:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R8szqk26wizdobg9LR9kkcBWrNM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8pbWblLkHHk"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-28T22:00:01Z",
+        "channelId": "UCWOA1ZGywLbqmigxE4Qlvuw",
+        "title": "Bubble | Official Trailer | Netflix",
+        "description": "In a Tokyo where gravity has broken, a boy and a girl are drawn to each other... The story is set in Tokyo, after bubbles that broke ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8pbWblLkHHk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8pbWblLkHHk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8pbWblLkHHk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Netflix",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-28T22:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "s8GBSPfkhy6ig0lRwao1Hgy4ni0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UyDlSmU7uuE"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-19T02:24:13Z",
+        "channelId": "UCGPJ-ypIEy4Q9VygoNLl7HQ",
+        "title": "Hell&#39;s Paradise: Jigokuraku | Official Trailer",
+        "description": "\"Hell's Paradise: Jigokuraku\" TV anime STAFF: Original Story: Yuji Kaku \"Hell's Paradise\" Kusu) Director: Kaori Makita Series ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UyDlSmU7uuE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UyDlSmU7uuE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UyDlSmU7uuE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AnimeTV チェーン",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-19T02:24:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "s6TfVM-oKNOolgz5yDlDcnrWZrg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iutQJzAXiWo"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-18T10:20:45Z",
+        "channelId": "UCDYDdPJKBUfKXcZBw9qwMdw",
+        "title": "BLEACH: Thousand Year Blood War – Official Trailer",
+        "description": "\"Bleach: Thousand Year Blood War Arc\" / \"Bleach: Sennen Kessen-hen\" is the continuation of the anime \"Bleach (2004)\", follows ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iutQJzAXiWo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iutQJzAXiWo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iutQJzAXiWo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "JP Anime",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-18T10:20:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
       "etag": "cQQNCX6oGky0UKp-RUzcWGCd_rc",
       "id": {
         "kind": "youtube#video",
@@ -610,6 +610,176 @@
         "channelTitle": "AnimeTV チェーン",
         "liveBroadcastContent": "none",
         "publishTime": "2022-04-20T17:39:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J0717yuILqsoY2fGfCvskrZ_NzQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6f7BZjnjSM4"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-18T10:41:35Z",
+        "channelId": "UCJWDdJyZROXdKY22BkwYNUQ",
+        "title": "Chainsaw Man Part 2 - Official Trailer",
+        "description": "Chainsaw Man Part 2 - Official Trailer Chainsaw Man is a Japanese manga series written and illustrated by Tatsuki Fujimoto.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6f7BZjnjSM4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6f7BZjnjSM4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6f7BZjnjSM4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AnimeHypeアニメ日本",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-18T10:41:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RpPqSJ5wxc5masAOWQk7FB3ld-M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1_vTlsf3qkE"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-05T16:00:00Z",
+        "channelId": "UCaWd5_7JhbQBe4dknZhsHJg",
+        "title": "Top 10 Anime Trailers That Broke The Internet",
+        "description": "These teasers sent fans into a tailspin! Join Ashley as we look over the trailers for anime films and series that set the intenert ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1_vTlsf3qkE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1_vTlsf3qkE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1_vTlsf3qkE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WatchMojo.com",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-05T16:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "U-qBn8DceNtW6LaGXGNEJy0h2RI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Oqd2C3oZkBU"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-18T01:00:12Z",
+        "channelId": "UC6pGDc4bFGD1_36IKv3FnYg",
+        "title": "SPY x FAMILY | OFFICIAL TRAILER 2",
+        "description": "Watch SPY x FAMILY on Crunchyroll! https://got.cr/cc-sxfpv Crunchyroll Collection brings you the latest clips, OPs, and more from ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Oqd2C3oZkBU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Oqd2C3oZkBU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Oqd2C3oZkBU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Crunchyroll Collection",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-18T01:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jN0KmJ0D1Ogz4ISgmZTTktB4NB0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1uWt5uXWUws"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-05T04:04:02Z",
+        "channelId": "UCChjE9CYTSJUECtLkA3SnTw",
+        "title": "Shikimori&#39;s Not Just a Cutie - Official Trailer [English Sub] | AniTV",
+        "description": "Shikimori's Not Just a Cutie anime, Shikimori's Not Just a Cutie anime trailer, Shikimori's Not Just a Cutie anime pv, Shikimori's ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1uWt5uXWUws/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1uWt5uXWUws/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1uWt5uXWUws/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AniTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-05T04:04:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qRWLjVQrZixjSKKSH9PRXp84Q1U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rORG4gUVOY8"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-28T09:03:10Z",
+        "channelId": "UCChjE9CYTSJUECtLkA3SnTw",
+        "title": "Summer Time Render - Official Trailer 2 | AniTV",
+        "description": "Summer Time Render, Summer Time Render Anime, Summer Time Anime, Summer Time Render Trailer, Summer Time Render ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rORG4gUVOY8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rORG4gUVOY8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rORG4gUVOY8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AniTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-28T09:03:10Z"
       }
     },
     {
@@ -648,40 +818,6 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "lwxhnlzMqgT2pL1EBLGUmNE-APY",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "hbtyjcPaGp4"
-      },
-      "snippet": {
-        "publishedAt": "2022-01-02T16:10:31Z",
-        "channelId": "UCJWDdJyZROXdKY22BkwYNUQ",
-        "title": "My Dress-Up Darling - Official Trailer",
-        "description": "My Dress-Up Darling starts broadcasting from January 9, 2022 Alternative Titles Sono Kisekae Ningyou wa Koi wo Suru Sono ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/hbtyjcPaGp4/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/hbtyjcPaGp4/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/hbtyjcPaGp4/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "AnimeHypeアニメ日本",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-01-02T16:10:31Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
       "etag": "fat9z5SUkTDUHF2JkAzRqW04_l4",
       "id": {
         "kind": "youtube#video",
@@ -712,142 +848,6 @@
         "channelTitle": "AnimeHypeアニメ日本",
         "liveBroadcastContent": "none",
         "publishTime": "2022-04-30T12:06:42Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "Nzau1FND21lRJdjfDI9y5FUFNUo",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "wXfGqmjjgpc"
-      },
-      "snippet": {
-        "publishedAt": "2020-09-27T01:51:55Z",
-        "channelId": "UCV63bDvnmGOOp3xRjosVvvA",
-        "title": "If Anime In General Had A Trailer",
-        "description": "follow me on Instagram @uniquevfx.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/wXfGqmjjgpc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/wXfGqmjjgpc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/wXfGqmjjgpc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "uniquevfx AMV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-09-27T01:51:55Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "Pat2q3BI6B_T6dInkFaOzGT54Nc",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "J7067ICdKdE"
-      },
-      "snippet": {
-        "publishedAt": "2022-05-10T15:00:17Z",
-        "channelId": "UCL3qjTo4-Ppt2xlyCwD1psQ",
-        "title": "Trailer - Toda la escuela Bunny vs anime adolescente! Diana y los amigos del anime no van a rendirse",
-        "description": "Trailer -Toda la escuela Bunny vs anime adolescente! Diana y los amigos del anime no van a rendirse! GAME Diana's Zoo: ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/J7067ICdKdE/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/J7067ICdKdE/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/J7067ICdKdE/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Hola Amigos",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-05-10T15:00:17Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "V58myd-loTI0ztozrdJZr8l0EME",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "2G42xjBjdck"
-      },
-      "snippet": {
-        "publishedAt": "2022-05-05T11:51:25Z",
-        "channelId": "UCChjE9CYTSJUECtLkA3SnTw",
-        "title": "Made in Abyss season 2 - Official Trailer 2 | AniTV",
-        "description": "Made in Abyss, Made in Abyss trailer, Made in Abyss anime trailer, Made in Abyss trailer eng sub, Made in Abyss season 2, Made ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/2G42xjBjdck/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/2G42xjBjdck/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/2G42xjBjdck/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "AniTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-05-05T11:51:25Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "VZwsIO_HOTRcITNoxEy80m-tqrU",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "0LFlmdgASlg"
-      },
-      "snippet": {
-        "publishedAt": "2022-04-11T10:05:37Z",
-        "channelId": "UCJWDdJyZROXdKY22BkwYNUQ",
-        "title": "Suzume no Tojimari - Official Trailer",
-        "description": "From the creator of \"Your Name\" (Kimi no Nawa) and \"Weathering with You\" (Tenki no Ko) :- Makoto Shinkai. \"Suzume no ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/0LFlmdgASlg/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/0LFlmdgASlg/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/0LFlmdgASlg/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "AnimeHypeアニメ日本",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-04-11T10:05:37Z"
       }
     }
   ]
