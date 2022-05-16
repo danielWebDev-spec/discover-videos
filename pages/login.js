@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import styles from "../styles/Login.module.css";
 
 const Login = () => {
@@ -8,19 +9,28 @@ const Login = () => {
   const [userMsg, setUserMsg] = useState("");
   const [email, setEmail] = useState("");
 
+  const router = useRouter();
+
   const handleOnChangeEmail = (e) => {
     setUserMsg("");
+    const email = e.target.value;
+    setEmail(email);
   };
 
   const handleLoginWithEmail = (e) => {
     e.preventDefault();
-    const email = e.target.value;
+
     if (email) {
-      // route to dashboard
-      console.log(email);
+      if (email === "hardcode@gmail.com") {
+        // route to dashboard
+        console.log("route to dashboard");
+        router.push("/");
+      } else {
+        // show user message
+        setUserMsg("Enter a valid email address");
+      }
     } else {
-      // show user message
-      setUserMsg("Enter a valid email address");
+      setUserMsg("Something went wrong logging in");
     }
   };
   return (

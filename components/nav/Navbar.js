@@ -26,6 +26,11 @@ const Navbar = (props) => {
     setShowDropdown(!showDropdown);
   };
 
+  const handleSignout = (e) => {
+    e.preventDefault();
+    router.push("/login");
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>
@@ -53,7 +58,7 @@ const Navbar = (props) => {
             {showDropdown && (
               <div className={styles.navDropdown}>
                 <Link href="/">
-                  <a onClick="/login" className={styles.linkName}>
+                  <a onClick={handleSignout} className={styles.linkName}>
                     Sign Out
                   </a>
                 </Link>
