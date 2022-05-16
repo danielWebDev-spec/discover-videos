@@ -6,13 +6,22 @@ import styles from "../styles/Login.module.css";
 const Login = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [userMsg, setUserMsg] = useState("");
+  const [email, setEmail] = useState("");
 
   const handleOnChangeEmail = (e) => {
-    e.preventDefault();
+    setUserMsg("");
   };
 
   const handleLoginWithEmail = (e) => {
     e.preventDefault();
+    const email = e.target.value;
+    if (email) {
+      // route to dashboard
+      console.log(email);
+    } else {
+      // show user message
+      setUserMsg("Enter a valid email address");
+    }
   };
   return (
     <div className={styles.container}>
