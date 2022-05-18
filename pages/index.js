@@ -36,7 +36,7 @@ export default function Home({
       </Head>
 
       <div className={styles.main}>
-        <Navbar username="daniel@gmail.com" />
+        <Navbar username="test@test.com" />
         <Banner
           title="Bleach"
           subTitle="Fade to Black"
