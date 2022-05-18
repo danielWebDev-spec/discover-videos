@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Head from "next/head";
 import Banner from "../components/banner/Banner";
 import SectionCards from "../components/card/SectionCards";
@@ -36,7 +37,7 @@ export default function Home({
       </Head>
 
       <div className={styles.main}>
-        <Navbar username="test@test.com" />
+        <Navbar />
         <Banner
           title="Bleach"
           subTitle="Fade to Black"
