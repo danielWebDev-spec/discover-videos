@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Head from "next/head";
 import Banner from "../components/banner/Banner";
 import SectionCards from "../components/card/SectionCards";
