@@ -2,6 +2,7 @@ import { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { magic } from "../lib/magic-client";
 import styles from "../styles/Login.module.css";
 
 const Login = () => {
@@ -17,20 +18,22 @@ const Login = () => {
     setEmail(email);
   };
 
-  const handleLoginWithEmail = (e) => {
+  const handleLoginWithEmail = async (e) => {
     e.preventDefault();
 
     if (email) {
-      if (email === "hardcode@gmail.com") {
-        // route to dashboard
-        console.log("route to dashboard");
-        router.push("/");
-      } else {
-        // show user message
-        setUserMsg("Enter a valid email address");
+      // log in a user by their email
+      try {
+        const didToken = await magic.auth.loginWithMagicLink({ email });
+        console.log(didToken);
+      } catch (error) {
+        // Handle errors if required!
+        console.error("Something went wrong logging in", error);
       }
+
+      // router.push("/");
     } else {
-      setUserMsg("Something went wrong logging in");
+      setUserMsg("Enter a valid email address");
     }
   };
   return (
