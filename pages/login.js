@@ -20,20 +20,23 @@ const Login = () => {
 
   const handleLoginWithEmail = async (e) => {
     e.preventDefault();
-
     if (email) {
       // log in a user by their email
       try {
+        setIsLoading(true);
         const didToken = await magic.auth.loginWithMagicLink({ email });
 
         if (didToken) {
+          setIsLoading(false);
           router.push("/");
         }
       } catch (error) {
         // Handle errors if required!
+        setIsLoading(false);
         console.error("Something went wrong logging in", error);
       }
     } else {
+      setIsLoading(false);
       setUserMsg("Enter a valid email address");
     }
   };
