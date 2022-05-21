@@ -41,6 +41,7 @@ export default function Home({
           title="Bleach"
           subTitle="Fade to Black"
           imgUrl="/static/Bleach.jpg"
+          videoId="TnO5S9pQzzc"
         />
         <div className={styles.sectionWrapper}>
           <SectionCards
