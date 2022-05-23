@@ -8,14 +8,6 @@ import { getYoutubeVideoById } from "../../lib/videos";
 Modal.setAppElement("#__next");
 
 export async function getStaticProps(context) {
-  // const video = {
-  //   title: "Bleach: Fade to Black",
-  //   publishTime: "2011-08-24",
-  //   description: "Trailer for the third exciting Bleach Movie!",
-  //   channelTitle: "vizmedia",
-  //   viewCount: "474657",
-  // };
-
   const videoId = context.params.videoId;
 
   const videoArray = await getYoutubeVideoById(videoId);
