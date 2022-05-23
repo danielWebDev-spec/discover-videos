@@ -3,21 +3,26 @@ import Modal from "react-modal";
 import styles from "../../styles/Video.module.css";
 import clsx from "classnames";
 import Navbar from "../../components/nav/Navbar";
+import { getYoutubeVideoById } from "../../lib/videos";
 
 Modal.setAppElement("#__next");
 
 export async function getStaticProps() {
-  const video = {
-    title: "Bleach: Fade to Black",
-    publishTime: "2011-08-24",
-    description: "Trailer for the third exciting Bleach Movie!",
-    channelTitle: "vizmedia",
-    viewCount: "474657",
-  };
+  // const video = {
+  //   title: "Bleach: Fade to Black",
+  //   publishTime: "2011-08-24",
+  //   description: "Trailer for the third exciting Bleach Movie!",
+  //   channelTitle: "vizmedia",
+  //   viewCount: "474657",
+  // };
+
+  const videoId = "TnO5S9pQzzc";
+
+  const videoArray = await getYoutubeVideoById(videoId);
 
   return {
     props: {
-      video,
+      video: videoArray.length > 0 ? videoArray[0] : {},
     },
     revalidate: 10, // In seconds
   };
@@ -36,7 +41,13 @@ export async function getStaticPaths() {
 const Video = ({ video }) => {
   const router = useRouter();
 
-  const { title, publishTime, description, channelTitle, viewCount } = video;
+  const {
+    title,
+    publishTime,
+    description,
+    channelTitle,
+    statistics: { viewCount },
+  } = video;
 
   return (
     <div className={styles.container}>

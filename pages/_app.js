@@ -5,20 +5,21 @@ import Loading from "../components/loading/Loading";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  const [isLoading, setIsLoading] = useState(true);
+  // isLoading set to false temp for debugging purposes
+  const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
 
-  useEffect(() => {
-    const loggedIn = async () => {
-      const isLoggedIn = await magic.user.isLoggedIn();
-      if (isLoggedIn) {
-        router.push("/");
-      } else {
-        router.push("/login");
-      }
-    };
-    loggedIn();
-  }, []);
+  // useEffect(() => {
+  //   const loggedIn = async () => {
+  //     const isLoggedIn = await magic.user.isLoggedIn();
+  //     if (isLoggedIn) {
+  //       router.push("/");
+  //     } else {
+  //       router.push("/login");
+  //     }
+  //   };
+  //   loggedIn();
+  // }, []);
 
   useEffect(() => {
     const handleComplete = () => {
