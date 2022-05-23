@@ -2,12 +2,11 @@ import { useRouter } from "next/router";
 import Modal from "react-modal";
 import styles from "../../styles/Video.module.css";
 import clsx from "classnames";
+import Navbar from "../../components/nav/Navbar";
 
 Modal.setAppElement("#__next");
 
-const Video = () => {
-  const router = useRouter();
-
+export async function getStaticProps() {
   const video = {
     title: "Bleach: Fade to Black",
     publishTime: "2011-08-24",
@@ -16,26 +15,46 @@ const Video = () => {
     viewCount: "474657",
   };
 
+  return {
+    props: {
+      video,
+    },
+    revalidate: 10, // In seconds
+  };
+}
+
+export async function getStaticPaths() {
+  const listOfVideos = ["TnO5S9pQzzc", "7mdMeofBXPA", "Dbpfum5vKIw"];
+
+  const paths = listOfVideos.map((videoId) => ({
+    params: { videoId },
+  }));
+
+  return { paths, fallback: "blocking" };
+}
+
+const Video = ({ video }) => {
+  const router = useRouter();
+
   const { title, publishTime, description, channelTitle, viewCount } = video;
 
   return (
     <div className={styles.container}>
+      <Navbar />
       <Modal
         className={styles.modal}
         isOpen={true}
         contentLabel="Watch Video"
-        onRequestClose={() => {
-          router.back();
-        }}
+        onRequestClose={() => router.back()}
         overlayClassName={styles.overlay}
       >
         <iframe
           className={styles.videoPlayer}
           id="player"
           type="text/html"
-          width="640"
+          width="100%"
           height="390"
-          src={`http://www.youtube.com/embed/${router.query.videoId}?enablejsapi=1&controls=1&rel=0`}
+          src={`http://www.youtube.com/embed/${router.query.videoId}?enablejsapi=1&controls=1&rel=1`}
           frameborder="0"
         ></iframe>
 
