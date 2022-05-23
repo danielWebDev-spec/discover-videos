@@ -7,7 +7,7 @@ import { getYoutubeVideoById } from "../../lib/videos";
 
 Modal.setAppElement("#__next");
 
-export async function getStaticProps() {
+export async function getStaticProps(context) {
   // const video = {
   //   title: "Bleach: Fade to Black",
   //   publishTime: "2011-08-24",
@@ -16,7 +16,7 @@ export async function getStaticProps() {
   //   viewCount: "474657",
   // };
 
-  const videoId = "TnO5S9pQzzc";
+  const videoId = context.params.videoId;
 
   const videoArray = await getYoutubeVideoById(videoId);
 
@@ -46,7 +46,7 @@ const Video = ({ video }) => {
     publishTime,
     description,
     channelTitle,
-    statistics: { viewCount },
+    statistics: { viewCount } = { viewCount: 0 },
   } = video;
 
   return (
