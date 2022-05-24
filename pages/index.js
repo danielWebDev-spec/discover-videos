@@ -4,6 +4,7 @@ import SectionCards from "../components/card/SectionCards";
 import Navbar from "../components/nav/Navbar";
 import styles from "../styles/Home.module.css";
 import { getPopularVideos, getVideos } from "../lib/videos";
+import { startFetchMyQuery } from "../lib/db/hasura";
 
 export async function getServerSideProps() {
   const animeVideos = await getVideos("anime trailers");
@@ -27,6 +28,7 @@ export default function Home({
   productivityVideos,
   popularVideos,
 }) {
+  startFetchMyQuery();
   return (
     <div className={styles.container}>
       <Head>
